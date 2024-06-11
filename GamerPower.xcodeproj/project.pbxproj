@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45684932C11DF5600816473 /* GiveawayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45684922C11DF5600816473 /* GiveawayDetailView.swift */; };
+		D4B492EE2C1066A1001A3141 /* GamerPowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B492ED2C1066A1001A3141 /* GamerPowerApp.swift */; };
+		D4B492F02C1066A1001A3141 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B492EF2C1066A1001A3141 /* ContentView.swift */; };
+		D4B492F22C1066A2001A3141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B492F12C1066A2001A3141 /* Assets.xcassets */; };
+		D4B492F52C1066A2001A3141 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B492F42C1066A2001A3141 /* Preview Assets.xcassets */; };
+		D4B493192C106846001A3141 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493182C106846001A3141 /* HomeView.swift */; };
+		D4B4931F2C106B0F001A3141 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D4B4931E2C106B0F001A3141 /* Alamofire */; };
+		D4B493222C106B74001A3141 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D4B493212C106B74001A3141 /* Moya */; };
+		D4B493272C106DDA001A3141 /* Giveaway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493262C106DDA001A3141 /* Giveaway.swift */; };
+		D4B4932A2C106E30001A3141 /* GamerPowerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493292C106E30001A3141 /* GamerPowerService.swift */; };
+		D4B4932F2C106EAF001A3141 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4932E2C106EAF001A3141 /* ApiClient.swift */; };
+		D4B493322C108A99001A3141 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493312C108A99001A3141 /* HomeViewModel.swift */; };
+		D4B493352C108B8D001A3141 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493342C108B8D001A3141 /* AsyncImage.swift */; };
+		D4B493382C10F179001A3141 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493372C10F179001A3141 /* Platform.swift */; };
+		D4B4933A2C10F471001A3141 /* GiveawayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B493392C10F471001A3141 /* GiveawayCard.swift */; };
+		D4FA90212C1746F10034E272 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90202C1746F10034E272 /* ApiClientTests.swift */; };
+		D4FA90232C1764F20034E272 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90222C1764F20034E272 /* TestHelpers.swift */; };
+		D4FA90252C1767B80034E272 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90242C1767B80034E272 /* HomeViewModelTests.swift */; };
+		D4FA902A2C1769100034E272 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = D4FA90292C1769100034E272 /* ViewInspector */; };
+		D4FA902C2C17699A0034E272 /* GiveawayCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA902B2C17699A0034E272 /* GiveawayCardTests.swift */; };
+		D4FA902E2C1779EC0034E272 /* HomeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA902D2C1779EC0034E272 /* HomeViewUITests.swift */; };
+		D4FA90322C1797090034E272 /* GiveawayDetailViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90312C1797090034E272 /* GiveawayDetailViewUITests.swift */; };
+		D4FA90342C1864710034E272 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90332C1864710034E272 /* Utilities.swift */; };
+		D4FA90372C186A5C0034E272 /* HorizontalGiveawaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90362C186A5C0034E272 /* HorizontalGiveawaysView.swift */; };
+		D4FA90392C186A770034E272 /* VerticalGiveawaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA90382C186A770034E272 /* VerticalGiveawaysView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B492FB2C1066A3001A3141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B492E22C1066A1001A3141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B492E92C1066A1001A3141;
+			remoteInfo = GamerPower;
+		};
+		D4B493052C1066A3001A3141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B492E22C1066A1001A3141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B492E92C1066A1001A3141;
+			remoteInfo = GamerPower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45684922C11DF5600816473 /* GiveawayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayDetailView.swift; sourceTree = "<group>"; };
+		D4B492EA2C1066A1001A3141 /* GamerPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamerPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B492ED2C1066A1001A3141 /* GamerPowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerPowerApp.swift; sourceTree = "<group>"; };
+		D4B492EF2C1066A1001A3141 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4B492F12C1066A2001A3141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B492F42C1066A2001A3141 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4B492FA2C1066A2001A3141 /* GamerPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamerPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B493042C1066A3001A3141 /* GamerPowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamerPowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B493182C106846001A3141 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D4B493262C106DDA001A3141 /* Giveaway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giveaway.swift; sourceTree = "<group>"; };
+		D4B493292C106E30001A3141 /* GamerPowerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerPowerService.swift; sourceTree = "<group>"; };
+		D4B4932E2C106EAF001A3141 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D4B493312C108A99001A3141 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D4B493342C108B8D001A3141 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		D4B493362C109661001A3141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D4B493372C10F179001A3141 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		D4B493392C10F471001A3141 /* GiveawayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayCard.swift; sourceTree = "<group>"; };
+		D4FA90202C1746F10034E272 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		D4FA90222C1764F20034E272 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		D4FA90242C1767B80034E272 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		D4FA902B2C17699A0034E272 /* GiveawayCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayCardTests.swift; sourceTree = "<group>"; };
+		D4FA902D2C1779EC0034E272 /* HomeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUITests.swift; sourceTree = "<group>"; };
+		D4FA90312C1797090034E272 /* GiveawayDetailViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayDetailViewUITests.swift; sourceTree = "<group>"; };
+		D4FA90332C1864710034E272 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D4FA90362C186A5C0034E272 /* HorizontalGiveawaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGiveawaysView.swift; sourceTree = "<group>"; };
+		D4FA90382C186A770034E272 /* VerticalGiveawaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGiveawaysView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B492E72C1066A1001A3141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B4931F2C106B0F001A3141 /* Alamofire in Frameworks */,
+				D4B493222C106B74001A3141 /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B492F72C1066A2001A3141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA902A2C1769100034E272 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B493012C1066A3001A3141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B492E12C1066A1001A3141 = {
+			isa = PBXGroup;
+			children = (
+				D4B492EC2C1066A1001A3141 /* GamerPower */,
+				D4B492FD2C1066A3001A3141 /* GamerPowerTests */,
+				D4B493072C1066A3001A3141 /* GamerPowerUITests */,
+				D4B492EB2C1066A1001A3141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B492EB2C1066A1001A3141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B492EA2C1066A1001A3141 /* GamerPower.app */,
+				D4B492FA2C1066A2001A3141 /* GamerPowerTests.xctest */,
+				D4B493042C1066A3001A3141 /* GamerPowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B492EC2C1066A1001A3141 /* GamerPower */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493362C109661001A3141 /* Info.plist */,
+				D4B493332C108B82001A3141 /* Utilities */,
+				D4B493302C108A8A001A3141 /* ViewModels */,
+				D4B493282C106E19001A3141 /* Network */,
+				D4B493252C106DCE001A3141 /* Model */,
+				D4B493172C10683A001A3141 /* Views */,
+				D4B492ED2C1066A1001A3141 /* GamerPowerApp.swift */,
+				D4B492EF2C1066A1001A3141 /* ContentView.swift */,
+				D4B492F12C1066A2001A3141 /* Assets.xcassets */,
+				D4B492F32C1066A2001A3141 /* Preview Content */,
+			);
+			path = GamerPower;
+			sourceTree = "<group>";
+		};
+		D4B492F32C1066A2001A3141 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4B492F42C1066A2001A3141 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4B492FD2C1066A3001A3141 /* GamerPowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA90202C1746F10034E272 /* ApiClientTests.swift */,
+				D4FA90222C1764F20034E272 /* TestHelpers.swift */,
+				D4FA90242C1767B80034E272 /* HomeViewModelTests.swift */,
+				D4FA902B2C17699A0034E272 /* GiveawayCardTests.swift */,
+			);
+			path = GamerPowerTests;
+			sourceTree = "<group>";
+		};
+		D4B493072C1066A3001A3141 /* GamerPowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA902D2C1779EC0034E272 /* HomeViewUITests.swift */,
+				D4FA90312C1797090034E272 /* GiveawayDetailViewUITests.swift */,
+			);
+			path = GamerPowerUITests;
+			sourceTree = "<group>";
+		};
+		D4B493172C10683A001A3141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA90352C186A410034E272 /* Home */,
+				D4B493392C10F471001A3141 /* GiveawayCard.swift */,
+				D45684922C11DF5600816473 /* GiveawayDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4B493252C106DCE001A3141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493262C106DDA001A3141 /* Giveaway.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4B493282C106E19001A3141 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493292C106E30001A3141 /* GamerPowerService.swift */,
+				D4B4932E2C106EAF001A3141 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4B493302C108A8A001A3141 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493312C108A99001A3141 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D4B493332C108B82001A3141 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493342C108B8D001A3141 /* AsyncImage.swift */,
+				D4B493372C10F179001A3141 /* Platform.swift */,
+				D4FA90332C1864710034E272 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D4FA90352C186A410034E272 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D4B493182C106846001A3141 /* HomeView.swift */,
+				D4FA90362C186A5C0034E272 /* HorizontalGiveawaysView.swift */,
+				D4FA90382C186A770034E272 /* VerticalGiveawaysView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B492E92C1066A1001A3141 /* GamerPower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B4930E2C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPower" */;
+			buildPhases = (
+				D4B492E62C1066A1001A3141 /* Sources */,
+				D4B492E72C1066A1001A3141 /* Frameworks */,
+				D4B492E82C1066A1001A3141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamerPower;
+			packageProductDependencies = (
+				D4B4931E2C106B0F001A3141 /* Alamofire */,
+				D4B493212C106B74001A3141 /* Moya */,
+			);
+			productName = GamerPower;
+			productReference = D4B492EA2C1066A1001A3141 /* GamerPower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B492F92C1066A2001A3141 /* GamerPowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B493112C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPowerTests" */;
+			buildPhases = (
+				D4B492F62C1066A2001A3141 /* Sources */,
+				D4B492F72C1066A2001A3141 /* Frameworks */,
+				D4B492F82C1066A2001A3141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B492FC2C1066A3001A3141 /* PBXTargetDependency */,
+			);
+			name = GamerPowerTests;
+			packageProductDependencies = (
+				D4FA90292C1769100034E272 /* ViewInspector */,
+			);
+			productName = GamerPowerTests;
+			productReference = D4B492FA2C1066A2001A3141 /* GamerPowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4B493032C1066A3001A3141 /* GamerPowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B493142C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPowerUITests" */;
+			buildPhases = (
+				D4B493002C1066A3001A3141 /* Sources */,
+				D4B493012C1066A3001A3141 /* Frameworks */,
+				D4B493022C1066A3001A3141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B493062C1066A3001A3141 /* PBXTargetDependency */,
+			);
+			name = GamerPowerUITests;
+			productName = GamerPowerUITests;
+			productReference = D4B493042C1066A3001A3141 /* GamerPowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B492E22C1066A1001A3141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D4B492E92C1066A1001A3141 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D4B492F92C1066A2001A3141 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D4B492E92C1066A1001A3141;
+					};
+					D4B493032C1066A3001A3141 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D4B492E92C1066A1001A3141;
+					};
+				};
+			};
+			buildConfigurationList = D4B492E52C1066A1001A3141 /* Build configuration list for PBXProject "GamerPower" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B492E12C1066A1001A3141;
+			packageReferences = (
+				D4B4931D2C106B0F001A3141 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D4B493202C106B74001A3141 /* XCRemoteSwiftPackageReference "Moya" */,
+				D4FA90282C1769100034E272 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
+			productRefGroup = D4B492EB2C1066A1001A3141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B492E92C1066A1001A3141 /* GamerPower */,
+				D4B492F92C1066A2001A3141 /* GamerPowerTests */,
+				D4B493032C1066A3001A3141 /* GamerPowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B492E82C1066A1001A3141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B492F52C1066A2001A3141 /* Preview Assets.xcassets in Resources */,
+				D4B492F22C1066A2001A3141 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B492F82C1066A2001A3141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B493022C1066A3001A3141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B492E62C1066A1001A3141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA90392C186A770034E272 /* VerticalGiveawaysView.swift in Sources */,
+				D4B493382C10F179001A3141 /* Platform.swift in Sources */,
+				D4B493322C108A99001A3141 /* HomeViewModel.swift in Sources */,
+				D4B493352C108B8D001A3141 /* AsyncImage.swift in Sources */,
+				D4FA90372C186A5C0034E272 /* HorizontalGiveawaysView.swift in Sources */,
+				D4B493272C106DDA001A3141 /* Giveaway.swift in Sources */,
+				D4B493192C106846001A3141 /* HomeView.swift in Sources */,
+				D4B4932F2C106EAF001A3141 /* ApiClient.swift in Sources */,
+				D4B4932A2C106E30001A3141 /* GamerPowerService.swift in Sources */,
+				D4B492F02C1066A1001A3141 /* ContentView.swift in Sources */,
+				D4FA90342C1864710034E272 /* Utilities.swift in Sources */,
+				D4B4933A2C10F471001A3141 /* GiveawayCard.swift in Sources */,
+				D45684932C11DF5600816473 /* GiveawayDetailView.swift in Sources */,
+				D4B492EE2C1066A1001A3141 /* GamerPowerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B492F62C1066A2001A3141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA902C2C17699A0034E272 /* GiveawayCardTests.swift in Sources */,
+				D4FA90212C1746F10034E272 /* ApiClientTests.swift in Sources */,
+				D4FA90232C1764F20034E272 /* TestHelpers.swift in Sources */,
+				D4FA90252C1767B80034E272 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B493002C1066A3001A3141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FA90322C1797090034E272 /* GiveawayDetailViewUITests.swift in Sources */,
+				D4FA902E2C1779EC0034E272 /* HomeViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B492FC2C1066A3001A3141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B492E92C1066A1001A3141 /* GamerPower */;
+			targetProxy = D4B492FB2C1066A3001A3141 /* PBXContainerItemProxy */;
+		};
+		D4B493062C1066A3001A3141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B492E92C1066A1001A3141 /* GamerPower */;
+			targetProxy = D4B493052C1066A3001A3141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4B4930C2C1066A3001A3141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B4930D2C1066A3001A3141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B4930F2C1066A3001A3141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GamerPower/Preview Content\"";
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamerPower/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B493102C1066A3001A3141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GamerPower/Preview Content\"";
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GamerPower/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4B493122C1066A3001A3141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamerPower.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GamerPower";
+			};
+			name = Debug;
+		};
+		D4B493132C1066A3001A3141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GamerPower.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GamerPower";
+			};
+			name = Release;
+		};
+		D4B493152C1066A3001A3141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GamerPower;
+			};
+			name = Debug;
+		};
+		D4B493162C1066A3001A3141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56S6Q9SA8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hussein.GamerPowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GamerPower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B492E52C1066A1001A3141 /* Build configuration list for PBXProject "GamerPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B4930C2C1066A3001A3141 /* Debug */,
+				D4B4930D2C1066A3001A3141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B4930E2C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B4930F2C1066A3001A3141 /* Debug */,
+				D4B493102C1066A3001A3141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B493112C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B493122C1066A3001A3141 /* Debug */,
+				D4B493132C1066A3001A3141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B493142C1066A3001A3141 /* Build configuration list for PBXNativeTarget "GamerPowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B493152C1066A3001A3141 /* Debug */,
+				D4B493162C1066A3001A3141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4B4931D2C106B0F001A3141 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		D4B493202C106B74001A3141 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		D4FA90282C1769100034E272 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4B4931E2C106B0F001A3141 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B4931D2C106B0F001A3141 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D4B493212C106B74001A3141 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4B493202C106B74001A3141 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D4FA90292C1769100034E272 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4FA90282C1769100034E272 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D4B492E22C1066A1001A3141 /* Project object */;
+}
