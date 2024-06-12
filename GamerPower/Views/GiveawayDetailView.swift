@@ -18,6 +18,7 @@ struct GiveawayDetailView: View {
                     ZStack(alignment: .bottomLeading) {
                         if let url = URL(string: giveaway.image) {
                             AsyncImage(url: url)
+                                .frame(height: 350)
                                 .aspectRatio(contentMode: .fill)
                                 .clipped()
                                 .overlay(
@@ -117,7 +118,6 @@ struct GiveawayDetailView: View {
                             }
                             Spacer()
                         }
-                        .padding(.horizontal)
                         .padding(.top)
                         
                         VStack(spacing: 8) {
